@@ -1,0 +1,20 @@
+services:
+  app:
+    build: ./app
+    ports:
+      - "8080:80"
+    depends_on:
+      - rizkydb
+
+  rizkydb:
+    image: mysql:5.7
+    container_name: rizky-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ghgjkdf
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/2212500389.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  db_data:
