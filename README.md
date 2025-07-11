@@ -1,6 +1,6 @@
 # uas-cloud-2212500389
 
-Proyek ini merupakan tugas UAS Mata Kuliah Komputasi Awan dengan implementasi **Docker Compose**, **PHP Native**, dan **MySQL**. Aplikasi sederhana ini digunakan untuk melakukan **input data mahasiswa** (NIM, Nama, Email) dan menampilkannya dalam tabel. Desain tampilan menggunakan **Bootstrap 5** dan sudah responsif di mobile dan desktop.
+Proyek ini merupakan proyek UAS Mata Kuliah Komputasi Awan dengan implementasi **Docker Compose**, **PHP Native**, dan **MySQL**. Aplikasi sederhana ini digunakan untuk melakukan **input data mahasiswa** (NIM, Nama, Email) dan menampilkannya dalam tabel. Desain tampilan menggunakan **Bootstrap 5** dan sudah responsif di mobile dan desktop.
 
 ---
 
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS mahasiswa (
 
 ## 👨‍💻 Developer
 
-- **Nama:** Ciruno
+- **Nama:** Rizky Fatoni Hidayat
 
 ---
 
