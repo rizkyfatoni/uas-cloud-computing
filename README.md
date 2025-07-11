@@ -41,7 +41,7 @@ uas-cloud-2212500389/
    ```
 3. Jalankan perintah:
    ```bash
-   docker-compose up --build
+   docker-compose up (tambahkan "--build" dibelakang jika ingin merebuild)
    ```
 
 4. Buka browser dan akses:
